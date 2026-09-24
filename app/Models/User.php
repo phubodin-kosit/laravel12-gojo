@@ -45,4 +45,14 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    // เพิ่มฟังก์ชันความสัมพันธ์ hasOne ตรงนี้
+    public function license() {
+        return $this->hasOne(License::class, 'user_id', 'id');
+    }
+
+    // เพิ่มฟังก์ชันความสัมพันธ์ hasMany ตรงนี้ (ให้อยู่ในคลาสเดียวกัน)
+    public function vehicles() {
+        return $this->hasMany(Vehicle::class, 'user_id', 'id');
+    }
 }
