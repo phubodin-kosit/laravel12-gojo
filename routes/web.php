@@ -130,3 +130,6 @@ Route::get("/gallery/spider", function () {
     $spider = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvyeAKDa4Mzqhx9LnRoj-k56znrKbzgJYR1xP1AGd7kg&s=1024";
     return view("test/spider", compact("spider"));
 });
+Route::get('/about-me', function () {
+    return view('about-me');
+});
