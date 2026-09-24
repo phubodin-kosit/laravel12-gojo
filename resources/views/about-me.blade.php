@@ -85,14 +85,14 @@
             <!-- ปุ่มที่ 1 -->
             <div class="col-md-4">
                 <a href="/gallery" class="work-btn">
-                    <img src="https://www.pinterest.com/pin/776237685806275387/" alt="Hero" class="btn-img">
+                    <img src="https://i.pinimg.com/736x/61/03/65/61036526c9edd3606d8abcc999ef97fe.jpg" alt="Hero" class="btn-img">
                     <div class="btn-text">EP02 Hero Avengers</div>
                 </a>
             </div>
             <!-- ปุ่มที่ 2 -->
             <div class="col-md-4">
                 <a href="/active/index" class="work-btn">
-                    <img src="https://www.pinterest.com/pin/79305643433667472/" alt="Active" class="btn-img">
+                    <img src="https://i.pinimg.com/736x/5b/9c/cd/5b9ccdf5074c448da633d4a5ae55ac74.jpg" alt="Active" class="btn-img">
                     <div class="btn-text">EP03 Active Bootstrap</div>
                 </a>
             </div>
@@ -101,14 +101,14 @@
             <!-- ปุ่มที่ 3 -->
             <div class="col-md-4">
                 <a href="/weight" class="work-btn">
-                    <img src="https://www.pinterest.com/pin/116108496639552199/" alt="Weight" class="btn-img">
+                    <img src="https://i.pinimg.com/1200x/46/47/d5/4647d534a7d15e1a763a22d8335fef90.jpg" alt="Weight" class="btn-img">
                     <div class="btn-text">EP07 Weight Tracker</div>
                 </a>
             </div>
             <!-- ปุ่มที่ 4 -->
             <div class="col-md-4">
                 <a href="/login" class="work-btn">
-                    <img src="https://www.pinterest.com/pin/103019910222524939/" alt="Login" class="btn-img">
+                    <img src="https://i.pinimg.com/736x/5f/b1/70/5fb1705c3f54627b3705457a3ad7edfd.jpg" alt="Login" class="btn-img">
                     <div class="btn-text">EP08 Auth (Login)</div>
                 </a>
             </div>
