@@ -1,7 +1,7 @@
 <x-weight>
     <div class="d-flex justify-content-between align-items-center mb-3">
         <h4>ประวัติน้ำหนัก</h4>
-        <a href="{{ route('weight.create') }}" class="btn btn-primary">+ เพิ่มข้อมูล</a>
+        <a href="/login" class="btn btn-primary">+ เพิ่มข้อมูล</a>
     </div>
 
     <!-- แสดงข้อความแจ้งเตือนเมื่อบันทึก/แก้ไข/ลบ สำเร็จ -->
@@ -28,9 +28,9 @@
                                 <td>{{ $item->record_date }}</td>
                                 <td>{{ $item->weight }}</td>
                                 <td>
-                                    <a href="{{ route('weight.edit', $item->id) }}" class="btn btn-sm btn-warning">แก้ไข</a>
+                                    <a href="/login" class="btn btn-sm btn-warning">แก้ไข</a>
                                     <!-- ฟอร์มสำหรับปุ่มลบ -->
-                                    <form action="{{ route('weight.destroy', $item->id) }}" method="POST" class="d-inline" onsubmit="return confirm('ต้องการลบข้อมูลนี้หรือไม่?');">
+                                    <form action="/login" method="POST" class="d-inline" onsubmit="return confirm('ต้องการลบข้อมูลนี้หรือไม่?');">
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" class="btn btn-sm btn-danger">ลบ</button>
